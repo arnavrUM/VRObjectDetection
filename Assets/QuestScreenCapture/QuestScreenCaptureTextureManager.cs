@@ -29,7 +29,7 @@ namespace Trev3d.Quest.ScreenCapture
 		public UnityEvent OnNewFrameIncoming = new();
 		public UnityEvent OnNewFrame = new();
 
-		public static readonly Vector2Int Size = new(1024, 1024);
+		public static readonly Vector2Int Size = new(1280, 1024);
 
 		private void Awake()
 		{
